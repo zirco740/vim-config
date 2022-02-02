@@ -1,7 +1,7 @@
 # vim-config
 My vim/neovim configurations.
 
-##List of used plugins
+## List of used plugins
 
 'tpope/vim-surround'
 'tpope/vim-commentary'
