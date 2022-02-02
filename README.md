@@ -3,27 +3,27 @@ My vim/neovim configurations.
 
 ## List of used plugins
 
-'tpope/vim-surround'
-'tpope/vim-commentary'
-'kyazdani42/nvim-web-devicons'
-'nvim-lualine/lualine.nvim'
-'akinsho/bufferline.nvim'
-'famiu/bufdelete.nvim'
-'ap/vim-css-color'
-'rafi/awesome-vim-colorschemes'
-'voldikss/vim-floaterm' "
-'mg979/vim-visual-multi'
-'jiangmiao/auto-pairs'
-'neoclide/coc.nvim'
-'github/copilot.vim'
-'weilbith/nvim-code-action-menu'
-'honza/vim-snippets'
-'sbdchd/neoformat'
-'rcarriga/nvim-notify'
-'nvim-treesitter/nvim-treesitter'
-'nvim-lua/plenary.nvim'
-'nvim-telescope/telescope.nvim'
-'cdelledonne/vim-cmake'
-'jbyuki/instant.nvim'
-'dstein64/nvim-scrollview'
-'puremourning/vimspector'
+'tpope/vim-surround' <br />
+'tpope/vim-commentary' <br />
+'kyazdani42/nvim-web-devicons' <br />
+'nvim-lualine/lualine.nvim' <br />
+'akinsho/bufferline.nvim' <br />
+'famiu/bufdelete.nvim' <br />
+'ap/vim-css-color' <br />
+'rafi/awesome-vim-colorschemes' <br />
+'voldikss/vim-floaterm' <br />
+'mg979/vim-visual-multi' <br />
+'jiangmiao/auto-pairs' <br />
+'neoclide/coc.nvim' <br />
+'github/copilot.vim' <br />
+'weilbith/nvim-code-action-menu' <br />
+'honza/vim-snippets' <br />
+'sbdchd/neoformat' <br />
+'rcarriga/nvim-notify' <br />
+'nvim-treesitter/nvim-treesitter' <br />
+'nvim-lua/plenary.nvim' <br />
+'nvim-telescope/telescope.nvim' <br />
+'cdelledonne/vim-cmake' <br />
+'jbyuki/instant.nvim' <br />
+'dstein64/nvim-scrollview' <br />
+'puremourning/vimspector' <br />
