@@ -53,7 +53,6 @@ call plug#end()
 "===Themes and Visuals===
 
 colorscheme gruvbox
-let ayucolor = "light"
 highlight Comment gui=italic cterm=italic
 
 "Line Number Bold
