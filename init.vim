@@ -68,6 +68,9 @@ let g:neovide_cursor_antialiasing=v:true
 
 "===Plugin Variables===
 
+"set foldmethod=expr
+"set foldexpr=nvim_treesitter#foldexpr()
+
 "Coq
 let g:coq_settings = { 'auto_start': 'shut-up' }
 
@@ -147,7 +150,6 @@ require('nvim-treesitter.configs').setup {
   sync_install = false,
   highlight = {
     enable = true,
-    disable = {},
     additional_vim_regex_highlighting = false,
   }
 }
