@@ -195,14 +195,14 @@ autocmd BufEnter * ++nested if winnr('$') == 1 && bufname() == 'NvimTree_' . tab
 "===Keybindings===
 
 "Telescope
-inoremap <C-f> :Telescope current_buffer_fuzzy_find <Enter> 
-nnoremap <C-f> :Telescope current_buffer_fuzzy_find <Enter> 
+inoremap <C-f> :Telescope current_buffer_fuzzy_find<CR>
+nnoremap <C-f> :Telescope current_buffer_fuzzy_find<CR>
 
 "Notification
 nnoremap <f3> :Telescope<CR>
 
 "Tree
-nnoremap <f2> :NvimTreeToggle <CR>
+nnoremap <f2> :NvimTreeToggle<CR>
 
 "Buffer
 nnoremap <silent><leader>1 <Cmd>BufferLineGoToBuffer 1<CR>
@@ -221,5 +221,6 @@ inoremap <silent><script><expr> <C-\> copilot#Accept("\<CR>")
 
 "Vimspector
 let g:vimspector_enable_mappings = 'VISUAL_STUDIO'
-nmap <Tab> <Plug>VimspectorBalloonEval
-xmap <Tab> <Plug>VimspectorBalloonEval
+nmap <Leader>di <Plug>VimspectorBalloonEval
+xmap <Leader>di <Plug>VimspectorBalloonEval
+nmap <Leader>db <Plug>VimspectorBreakpoints
